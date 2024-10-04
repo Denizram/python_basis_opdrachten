@@ -15,4 +15,4 @@ try:
 
     print (antwoord)
 except ValueError:
-   print("Hey dat is geen getal!")
+   print("Hey, dat is geen getal!")
