@@ -4,4 +4,9 @@
 
 # Hier komt je code...
 
-gasten = ["Jij", ... ]
+gasten = ["Deniz", "Paul", "Kees", "Marie", "Hilda"]
+print(gasten)
+gasten.remove("Marie")
+print(gasten)
+gasten.insert(3, "George")
+print(gasten)
