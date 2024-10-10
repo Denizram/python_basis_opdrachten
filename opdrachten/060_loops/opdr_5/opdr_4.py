@@ -6,4 +6,5 @@
 
 # Hier start de for-loop
 
-my_list = []
+kwadraten = [3*x for x in range(1, 20)]
+print(kwadraten[:6])

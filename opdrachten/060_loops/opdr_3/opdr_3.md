@@ -14,3 +14,8 @@ Doe alle getallen uit de range in het kwadraat en deel ze vervolgens door 3
 Zo komt de output eruit te zien:
 
 >[3.0, 12.0, 27.0, 48.0, 75.0, 108.0, 147.0, 192.0, 243.0, 300.0, 363.0, 432.0, 507.0, 588.0, 675.0, 768.0, 867.0, 972.0, 1083.0, 1200.0, 1323.0, 1452.0, 1587.0, 1728.0, 1875.0, 2028.0]
+
+my_list = [ x for x in range(3, 81, 3)]
+
+my_list xx 2 / 3
+print (my_list)
