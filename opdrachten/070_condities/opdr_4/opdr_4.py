@@ -4,9 +4,15 @@
 
 
 
-toppings = [("olijven", 4.50), ("kaas", 3.50), ("salami", 3.00), ("pepperoni", 2.00) , ("ansjovis", 2.50)]
-beschikbare_toppings = ...
+toppings = [("olijven", 4.50), ("kaas", 3.50), ("salami", 3.00), ("pepperoni", 2.00), ("ansjovis", 2.50)]
 
-keuze = input(f"Maak een keuze uit onze toppings: {beschikbare_toppings} \n")
+beschikbare_toppings = [topping[0] for topping in toppings]
 
-# Hier de rest van jouw code...
+keuze = input(f"Maak een keuze uit onze toppings: {beschikbare_toppings}\n").strip()
+
+for topping, prijs in toppings:
+    if keuze.lower() == topping:
+        print(f"U heeft {topping} besteld. Dat kost {prijs:.2f}")
+        break
+else:
+    print("Uw keuze zit niet in ons assortiment.")

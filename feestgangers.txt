@@ -1,0 +1,6 @@
+----
+Wat is je voornaam?: Deniz
+Wat is je achternaam?: Ram
+Wat neem je mee aan drank?: Spa Blauw
+Wat neem je mee om te eten?: Biefstuk
+

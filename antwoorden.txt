@@ -1,0 +1,9 @@
+Vraag: Wat vind je van de huidige regering?
+Antwoord: test1
+
+Vraag: Wat vind je van de Python-lessen tot nu toe?
+Antwoord: test2
+
+Vraag: Wat vind jij de mooiste stad van Nederland?
+Antwoord: test3
+
