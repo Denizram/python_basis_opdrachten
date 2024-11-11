@@ -4,11 +4,19 @@
 
 
 def volledige_naam(lijst_met_namen):
-    # hier komt jouw code
-    # Het woordje pass mag je weghalen
-    pass
+    for naam in lijst_met_namen:
+        # Controleer of er een tussenvoegsel is
+        if naam["tussenvoegsel"]:
+            # Als er een tussenvoegsel is, voeg het toe tussen voornaam en achternaam
+            volledige_naam = f"{naam['voornaam']} {naam['tussenvoegsel']} {naam['achternaam']}"
+        else:
+            # Als er geen tussenvoegsel is, combineer alleen voornaam en achternaam
+            volledige_naam = f"{naam['voornaam']} {naam['achternaam']}"
+        
+        # Print de volledige naam
+        print(volledige_naam)
 
-
+# Voorbeeldlijst van namen
 namen = [
     {"voornaam": "Willem", "tussenvoegsel": "van", "achternaam": "Dijk"},
     {"voornaam": "Klaas", "tussenvoegsel": "", "achternaam": "Wopstra"},

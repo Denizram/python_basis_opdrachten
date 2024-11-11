@@ -13,7 +13,6 @@ Deze opdracht hoort bij de cursus python op [edutorial.nl](https://www.edutorial
 Schrijf 2 functies die het volume uitrekenen.  
 De eerste functie berekent de inhoud van een kubus.  
 Alle zijden van de kubus zijn even lang.  
-[Zo bereken je het volume](https://nl.wikibooks.org/wiki/Wiskunde/Volume)  
 De functie moet je op de volgende manier kunnen aanroepen:  
 ```python
 volume = kubus_vol(5)
@@ -21,8 +20,7 @@ volume = kubus_vol(5)
 
 > De inhoud van deze kubus is: 125
 
-De tweede functie berekent het volume van een bol.  
-[Zo bereken je het volume](https://nl.wikibooks.org/wiki/Wiskunde/Volume)  
+De tweede functie berekent het volume van een bol.   
 Je hebt in ieder geval het getal pi nodig. 
 Python heeft een eigen nauwkeurige versie van het getal pi namelijk math.pi
 
